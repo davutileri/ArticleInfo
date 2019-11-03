@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[ArticleInfo] (
+    [ID]           INT            IDENTITY (1, 1) NOT NULL,
+    [Name]         NVARCHAR (50)  NOT NULL,
+    [Description]  NVARCHAR (500) NULL,
+    [Author]       NVARCHAR (50)  NULL,
+    [JournalTitle] NVARCHAR (50)  NULL,
+    [JournalIssue] INT            NULL,
+    CONSTRAINT [PK_ArticleInfo] PRIMARY KEY CLUSTERED ([ID] ASC)
+);
