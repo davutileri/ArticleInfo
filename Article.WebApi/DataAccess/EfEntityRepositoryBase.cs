@@ -38,7 +38,7 @@ namespace Article.WebApi.DataAccess
             }
         }
 
-        public void Delete(TEntity entity)
+        public void Update(TEntity entity)
         {
             using (var context = new TContext())
             {
@@ -48,7 +48,7 @@ namespace Article.WebApi.DataAccess
             }
         }
 
-        public void Update(TEntity entity)
+        public void Delete(TEntity entity)
         {
             using (var context = new TContext())
             {
