@@ -10,4 +10,4 @@
   Database tek tablo olarak absit bir şekilde tanımlamaktansa tabloları çoğaltarak daha kapsamlı bir proje yapabilirdim. 
   Log yapısını eklerdim.
 
-4)Visual Studio 2019'u ve yeni release olan ASP.NET Core 3.0.0 kullandım.
+4)Visual Studio 2019'u ve yeni release olan ASP.NET Core 3.0.0 kullandım. Veri tabanı olarak ise MsSql kullandım.
